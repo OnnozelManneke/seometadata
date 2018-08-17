@@ -36,6 +36,11 @@ $lang = array_merge($lang, [
 	'ACP_SEO_METADATA_DESC_ELLIPSIS' => 'Ellipsis',
 	'ACP_SEO_METADATA_DESC_BREAK_WORDS' => 'Breek woorden',
 
+	'ACP_SEO_METADATA_IMAGE_STRATEGY' => 'Beeldstrategie',
+	'ACP_SEO_METADATA_IMAGE_STRATEGY_EXPLAIN' => '<samp>Eerst gevonden</samp> selecteert de eerste gevonden afbeelding die kan worden gebruikt in de berichttekst.<br /><samp>Afbeelding afmetingen</samp> selecteert de afbeelding met de grootste afmetingen (breedte, hoogte) binnen het bericht.',
+	'ACP_SEO_METADATA_IMAGE_FIRST' => 'Eerst gevonden',
+	'ACP_SEO_METADATA_IMAGE_DIMENSIONS' => 'Afbeelding afmetingen',
+
 	'ACP_SEO_METADATA_DEFAULT_IMAGE' => 'Standaard afbeelding',
 	'ACP_SEO_METADATA_DEFAULT_IMAGE_EXPLAIN' => 'Standaard afbeelding URL voor metatags zoals <samp>og:image</samp>. Het wordt alleen gebruikt als er geen afbeelding kan worden gevonden binnen de huidige pagina. Het moet relatief zijn ten opzichte van <samp>%s</samp>',
 
