@@ -31,9 +31,9 @@ $lang = array_merge($lang, [
 	'ACP_SEO_METADATA_DESC_LENGTH' => 'Beschrijving lengte',
 	'ACP_SEO_METADATA_DESC_LENGTH_EXPLAIN' => 'Maximum lengte voor een beschrijving die wordt gebruikt in metatags, zoals <samp>og:description</samp>. Het heeft een vaste limiet van <samp>og:description</samp> karakters.',
 	'ACP_SEO_METADATA_DESC_STRATEGY' => 'Beschrijving strategie',
-	'ACP_SEO_METADATA_DESC_STRATEGY_EXPLAIN' => '<samp>Knippen</samp> knipt de beschrijving op de exacte positie als deze de maximale lengte overschrijdt.<br /><samp>Ellipsis</samp> voegt een ellips toe (<code>…</code>) aan het einde van de beschrijving als deze de maximale lengte overschrijdt.<br /><samp>Breek woorden</samp> past zoveel mogelijk woorden toe zonder de maximale lengte te overschrijden.',
+	'ACP_SEO_METADATA_DESC_STRATEGY_EXPLAIN' => '<samp>Knippen</samp> knipt de beschrijving op de exacte positie als deze de maximale lengte overschrijdt.<br /><samp>Beletselteken</samp> voegt een beletselteken toe (<code>…</code>) aan het einde van de beschrijving als deze de maximale lengte overschrijdt.<br /><samp>Breek woorden</samp> past zoveel mogelijk woorden toe zonder de maximale lengte te overschrijden.',
 	'ACP_SEO_METADATA_DESC_CUT' => 'Knippen',
-	'ACP_SEO_METADATA_DESC_ELLIPSIS' => 'Ellipsis',
+	'ACP_SEO_METADATA_DESC_ELLIPSIS' => 'Beletselteken',
 	'ACP_SEO_METADATA_DESC_BREAK_WORDS' => 'Breek woorden',
 
 	'ACP_SEO_METADATA_IMAGE_STRATEGY' => 'Beeldstrategie',
