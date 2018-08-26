@@ -53,6 +53,11 @@ $lang = array_merge($lang, [
 	'ACP_OPEN_GRAPH_SETTINGS' => 'Open Graph instellingen',
 	'ACP_OPEN_GRAPH' => 'Schakel Open Graph in',
 
+	'ACP_FACEBOOK_APPLICATION' => 'Facebook applicatie ID',
+	'ACP_FACEBOOK_APPLICATION_EXPLAIN' => 'Identificatie van uw Facebook applicatie.',
+	'ACP_FACEBOOK_PUBLISHER' => 'Facebook uitgever',
+	'ACP_FACEBOOK_PUBLISHER_EXPLAIN' => 'De URL van uw Facebook pagina.',
+
 	'ACP_JSON_LD_SETTINGS' => 'JSON-LD instellingen',
 	'ACP_JSON_LD' => 'Schakel JSON-LD in',
 
