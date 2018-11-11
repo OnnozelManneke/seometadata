@@ -4,7 +4,6 @@
  * SEO Metadata Extension for phpBB.
  * @author Alfredo Ramos <alfredo.ramos@yandex.com>
  * @copyright 2018 Alfredo Ramos
- * Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net> 
  * @license GNU GPL-2.0-only
  */
 
@@ -25,7 +24,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, [
-	'ACP_SEO_METADATA' => 'SEO Metadata instellingen',
+	'ACP_SEO_METADATA' => 'SEO Metadata',
 	'ACP_SEO_METADATA_EXPLAIN' => 'Nadat u deze waarden hebt gewijzigd, moet u mogelijk de cache opschonen.',
 
 	'ACP_SEO_METADATA_DESC_LENGTH' => 'Beschrijving lengte',
@@ -43,6 +42,9 @@ $lang = array_merge($lang, [
 
 	'ACP_SEO_METADATA_DEFAULT_IMAGE' => 'Standaard afbeelding',
 	'ACP_SEO_METADATA_DEFAULT_IMAGE_EXPLAIN' => 'Standaard afbeelding URL voor metatags zoals <samp>og:image</samp>. Het wordt alleen gebruikt als er geen afbeelding kan worden gevonden binnen de huidige pagina. Het moet relatief zijn ten opzichte van <samp>%s</samp>',
+
+	'ACP_SEO_METADATA_LOCAL_IMAGES' => 'Locale afbeeldingen',
+	'ACP_SEO_METADATA_LOCAL_IMAGES_EXPLAIN' => 'Haal alleen afbeeldingen op uit uw domein (<samp>%s</samp>). Deze instelling heeft ook invloed op de standaardafbeelding.',
 
 	'ACP_SEO_METADATA_SETTINGS_SAVED' => 'SEO Metadata instellingen zijn succesvol opgeslagen.',
 
