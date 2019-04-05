@@ -46,6 +46,12 @@ $lang = array_merge($lang, [
 	'ACP_SEO_METADATA_LOCAL_IMAGES' => 'Locale afbeeldingen',
 	'ACP_SEO_METADATA_LOCAL_IMAGES_EXPLAIN' => 'Haal alleen afbeeldingen op uit uw domein (<samp>%s</samp>). Deze instelling heeft ook invloed op de standaardafbeelding.',
 
+	'ACP_SEO_METADATA_ATTACHMENTS' => 'Inclusief bijlagen',
+	'ACP_SEO_METADATA_ATTACHMENTS_EXPLAIN' => 'Voeg ook afbeeldingen van bijlagen toe. Ze worden gekozen in dezelfde volgorde waarin ze zijn geüpload.',
+
+	'ACP_SEO_METADATA_PREFER_ATTACHMENTS' => 'Geef de voorkeur aan bijlagen',
+	'ACP_SEO_METADATA_PREFER_ATTACHMENTS_EXPLAIN' => 'Bijlage afbeeldingen hebben een hogere prioriteit dan degene die uit de post zijn gehaald.',
+
 	'ACP_SEO_METADATA_SETTINGS_SAVED' => 'SEO Metadata instellingen zijn succesvol opgeslagen.',
 
 	'ACP_SEO_METADATA_DATA_EXPLAIN' => 'Metadata worden dynamisch gegenereerd op basis van uw forum gegevens.',
