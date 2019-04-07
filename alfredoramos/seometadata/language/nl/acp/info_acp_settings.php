@@ -27,6 +27,9 @@ $lang = array_merge($lang, [
 	'ACP_SEO_METADATA' => 'SEO Metadata',
 	'ACP_SEO_METADATA_EXPLAIN' => 'Nadat u deze waarden hebt gewijzigd, moet u mogelijk de cache opschonen.',
 
+	'ACP_SEO_METADATA_META_DESCRIPTION' => 'Beschrijving inschakelen',
+	'ACP_SEO_METADATA_META_DESCRIPTION_EXPLAIN' => 'Beschrijving metatag.',
+
 	'ACP_SEO_METADATA_DESC_LENGTH' => 'Beschrijving lengte',
 	'ACP_SEO_METADATA_DESC_LENGTH_EXPLAIN' => 'Maximum lengte voor een beschrijving die wordt gebruikt in metatags, zoals <samp>og:description</samp>. Het heeft een vaste limiet van <samp>og:description</samp> karakters.',
 	'ACP_SEO_METADATA_DESC_STRATEGY' => 'Beschrijving strategie',
