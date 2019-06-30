@@ -46,6 +46,12 @@ $lang = array_merge($lang, [
 	'ACP_SEO_METADATA_DEFAULT_IMAGE' => 'Standaard afbeelding',
 	'ACP_SEO_METADATA_DEFAULT_IMAGE_EXPLAIN' => 'Standaard afbeelding URL voor metatags zoals <samp>og:image</samp>. Het wordt alleen gebruikt als er geen afbeelding kan worden gevonden binnen de huidige pagina. Het moet relatief zijn ten opzichte van <samp>%s</samp>',
 
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_DIMENSIONS' => 'Standaard afbeelding dimensies',
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_DIMENSIONS_EXPLAIN' => 'Breedte x hoogte van standaardafbeelding. Zet beide op <samp>0</samp> om te proberen de afbeelding dimensies te raden.',
+
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_TYPE' => 'Standaard afbeeldingstype',
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_TYPE_EXPLAIN' => 'Het MIME type van de standaardafbeelding. Laat het veld leeg om te proberen het type te raden als u deze informatie niet kent of niet zeker bent.',
+
 	'ACP_SEO_METADATA_LOCAL_IMAGES' => 'Locale afbeeldingen',
 	'ACP_SEO_METADATA_LOCAL_IMAGES_EXPLAIN' => 'Haal alleen afbeeldingen op uit uw domein (<samp>%s</samp>). Deze instelling heeft ook invloed op de standaardafbeelding.',
 
@@ -54,8 +60,6 @@ $lang = array_merge($lang, [
 
 	'ACP_SEO_METADATA_PREFER_ATTACHMENTS' => 'Geef de voorkeur aan bijlagen',
 	'ACP_SEO_METADATA_PREFER_ATTACHMENTS_EXPLAIN' => 'Bijlage afbeeldingen hebben een hogere prioriteit dan degene die uit de post zijn gehaald.',
-
-	'ACP_SEO_METADATA_SETTINGS_SAVED' => 'SEO Metadata instellingen zijn succesvol opgeslagen.',
 
 	'ACP_SEO_METADATA_DATA_EXPLAIN' => 'Metadata worden dynamisch gegenereerd op basis van uw forum gegevens.',
 
