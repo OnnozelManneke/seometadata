@@ -44,16 +44,19 @@ $lang = array_merge($lang, [
 	'ACP_SEO_METADATA_IMAGE_DIMENSIONS' => 'Afbeelding afmetingen',
 
 	'ACP_SEO_METADATA_DEFAULT_IMAGE' => 'Standaard afbeelding',
-	'ACP_SEO_METADATA_DEFAULT_IMAGE_EXPLAIN' => 'Standaard afbeelding URL voor metatags zoals <samp>og:image</samp>. Het wordt alleen gebruikt als er geen afbeelding kan worden gevonden binnen de huidige pagina. Het moet relatief zijn ten opzichte van <samp>%s</samp>',
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_EXPLAIN' => 'Standaard afbeelding URL voor metatags zoals <samp>og:image</samp>. Het wordt alleen gebruikt als er geen afbeelding kan worden gevonden op de huidige pagina. Het moet groter zijn dan <samp>200</samp>x<samp>200</samp>px en relatief ten opzichte van <samp>%s</samp>',
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_INVALID' => 'De waarde die is opgegeven als standaardafbeelding <samp>%1$s</samp> heeft een lege URL gegenereerd.<br>Het kan zijn dat een niet bestaande afbeelding is opgegeven of dat de bestandsnaam buiten de <samp>/images/</samp> pad zit.',	
 
 	'ACP_SEO_METADATA_DEFAULT_IMAGE_DIMENSIONS' => 'Standaard afbeelding dimensies',
 	'ACP_SEO_METADATA_DEFAULT_IMAGE_DIMENSIONS_EXPLAIN' => 'Breedte x hoogte van standaardafbeelding. Zet beide op <samp>0</samp> om te proberen de afbeelding dimensies te raden.',
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_WIDTH' => 'Standaard afbeeldingsbreedte',
+	'ACP_SEO_METADATA_DEFAULT_IMAGE_HEIGHT' => 'Standaard afbeeldingshoogte',
 
 	'ACP_SEO_METADATA_DEFAULT_IMAGE_TYPE' => 'Standaard afbeeldingstype',
 	'ACP_SEO_METADATA_DEFAULT_IMAGE_TYPE_EXPLAIN' => 'Het MIME type van de standaardafbeelding. Laat het veld leeg om te proberen het type te raden als u deze informatie niet kent of niet zeker bent.',
 
 	'ACP_SEO_METADATA_LOCAL_IMAGES' => 'Locale afbeeldingen',
-	'ACP_SEO_METADATA_LOCAL_IMAGES_EXPLAIN' => 'Haal alleen afbeeldingen op uit uw domein (<samp>%s</samp>). Deze instelling heeft ook invloed op de standaardafbeelding.',
+	'ACP_SEO_METADATA_LOCAL_IMAGES_EXPLAIN' => 'Haal alleen afbeeldingen op uit uw domein (<samp>%s</samp>).',
 
 	'ACP_SEO_METADATA_ATTACHMENTS' => 'Inclusief bijlagen',
 	'ACP_SEO_METADATA_ATTACHMENTS_EXPLAIN' => 'Voeg ook afbeeldingen van bijlagen toe. Ze worden gekozen in dezelfde volgorde waarin ze zijn geüpload.',
@@ -63,23 +66,25 @@ $lang = array_merge($lang, [
 
 	'ACP_SEO_METADATA_DATA_EXPLAIN' => 'Metadata worden dynamisch gegenereerd op basis van uw forum gegevens.',
 
-	'ACP_GLOBAL_SETTINGS' => 'Algemene instellingen',
+	'ACP_SEO_METADATA_GLOBAL_SETTINGS' => 'Algemene instellingen',
 
-	'ACP_OPEN_GRAPH_SETTINGS' => 'Open Graph instellingen',
-	'ACP_OPEN_GRAPH' => 'Schakel Open Graph in',
+	'ACP_SEO_METADATA_OPEN_GRAPH_SETTINGS' => 'Open Graph instellingen',
+	'ACP_SEO_METADATA_OPEN_GRAPH' => 'Open Graph inschakelen',
 
-	'ACP_FACEBOOK_APPLICATION' => 'Facebook applicatie ID',
-	'ACP_FACEBOOK_APPLICATION_EXPLAIN' => 'Identificatie van uw Facebook applicatie.',
-	'ACP_FACEBOOK_PUBLISHER' => 'Facebook uitgever',
-	'ACP_FACEBOOK_PUBLISHER_EXPLAIN' => 'De URL van uw Facebook pagina.',
+	'ACP_SEO_METADATA_FACEBOOK_APPLICATION' => 'Facebook applicatie ID',
+	'ACP_SEO_METADATA_FACEBOOK_APPLICATION_EXPLAIN' => 'Identificatie van uw Facebook applicatie.',
+	'ACP_SEO_METADATA_FACEBOOK_PUBLISHER' => 'Facebook uitgever',
+	'ACP_SEO_METADATA_FACEBOOK_PUBLISHER_EXPLAIN' => 'De URL van uw Facebook pagina.',
 
-	'ACP_TWITTER_CARD_SETTINGS' => 'Instellingen voor Twitter kaarten',
-	'ACP_TWITTER_CARDS' => 'Twitter kaarten inschakelen',
-	'ACP_TWITTER_PUBLISHER' => 'Twitter uitgever',
-	'ACP_TWITTER_PUBLISHER_EXPLAIN' => 'De gebruikersnaam van uw website Twitter account.',
+	'ACP_SEO_METADATA_TWITTER_CARD_SETTINGS' => 'Twitter Cards instellingen',
+	'ACP_SEO_METADATA_TWITTER_CARDS' => 'Schakel Twitter Cards in',
+	'ACP_SEO_METADATA_TWITTER_PUBLISHER' => 'Twitter uitgever',
+	'ACP_SEO_METADATA_TWITTER_PUBLISHER_EXPLAIN' => 'De gebruikersnaam van uw website Twitter account.',
 
-	'ACP_JSON_LD_SETTINGS' => 'JSON-LD instellingen',
-	'ACP_JSON_LD' => 'Schakel JSON-LD in',
+	'ACP_SEO_METADATA_JSON_LD_SETTINGS' => 'JSON-LD instellingen',
+	'ACP_SEO_METADATA_JSON_LD' => 'JSON LD inschakelen',
+
+	'ACP_SEO_METADATA_VALIDATE_INVALID_FIELDS' => 'Ongeldige waarden voor velden: %s',
 
 	'LOG_SEO_METADATA_DATA' => '<strong>SEO Metadata gegevens gewijzigd</strong><br>» %s'
 ]);
