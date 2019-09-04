@@ -25,7 +25,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'ACP_SEO_METADATA' => 'SEO Metadata',
-	'ACP_SEO_METADATA_EXPLAIN' => 'Nadat u deze waarden hebt gewijzigd, moet u mogelijk de cache opschonen.',
+	'ACP_SEO_METADATA_EXPLAIN' => 'Wijzigingen in de volgende waarden worden alleen toegepast op nieuwe onderwerpen. Als u wilt dat deze ook op oude onderwerpen wordt toegepast, moet u de cache opschonen.',
 
 	'ACP_SEO_METADATA_META_DESCRIPTION' => 'Beschrijving inschakelen',
 	'ACP_SEO_METADATA_META_DESCRIPTION_EXPLAIN' => 'Beschrijving metatag.',
